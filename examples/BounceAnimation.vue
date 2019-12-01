@@ -2,13 +2,13 @@
   <div class="sandbox">
     <button class="sandbox__button" @click="show = !show">Show</button>
     <transition name="bounce">
-      <img class="sandbox__image" v-show="show" src="./images/vuejs_logo.png" alt="vuejs">
+      <img class="sandbox__image" v-show="show" src="../assets/images/vuejs_logo.png" alt="vuejs">
     </transition>
   </div>
 </template>
 
 <script>
-  import './stylesheet/index.css'
+  import '../assets/stylesheet/index.css'
 
   export default {
     name: 'BounceAnimation',

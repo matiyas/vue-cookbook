@@ -1,0 +1,14 @@
+{
+  "name": "vue-cookbook",
+  "version": "1.0.0",
+  "description": "Vue examples",
+  "main": "index.js",
+  "repository": "git@github.com:matiyas/vue-cookbook.git",
+  "author": "Damian Matyjaszek <tougepl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^4.1.1",
+    "@vue/cli-service-global": "^4.1.1",
+    "animate.css": "^3.7.2"
+  }
+}
